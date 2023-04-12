@@ -1,0 +1,146 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body {
+	width: 99%;
+}
+.head {
+	background-image: linear-gradient(to right, red, green, yellow);
+	text-align: center;
+	margin-bottom: 10px;
+}
+.text1 {
+	text-decoration: underline;
+	font-weight: bold;
+	background-color: cadetblue;
+	filter: opacity(1);
+}
+.box {
+	margin: auto;
+	background-color: skyblue;
+	height: 60px;
+	width: 600px;
+	border: 3px solid darkred;
+	border-radius: 10px;
+	margin-bottom: 10px;
+}
+.list {
+	text-align: center;
+}
+ul {
+	display: inline-block;
+}
+.linav {
+	padding-left: 30px;
+}
+.container1 {
+	padding: 0px 20px;
+	margin-bottom: 10px;
+	height: 120px;
+	border: 2px solid green;
+	border-radius: 10px;
+	background-color: aquamarine;
+	display: grid;
+	grid-template-columns: repeat(3, auto);
+	column-gap: 30px;
+}
+.box1 {
+	text-align: center;
+	border: 2px solid green;
+	border-radius: 10px;
+	background-color: aqua;
+	font-weight: bold;
+}
+.box4 {
+	grid-column: 2/3;
+}
+.block1 {
+	background-image: linear-gradient(to right, red, yellow, red);
+	text-align: center;
+	text-decoration: underline red;
+	font-weight: bold;
+	padding-bottom: 10px;
+	margin-bottom: 10px;
+}
+.container2 {
+	background-image: radial-gradient(ellipse, blue, rgb(106, 233, 106));
+	height: 200px;
+	border: 2px solid green;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	margin-bottom: 20px;
+	align-content: center;
+}
+.flexbox {
+	width: 200px;
+	height: 100px;
+	border: 2px solid brown;
+	border-radius: 10px;
+	background-color: #e7e75a;
+	text-decoration: underline brown;
+	text-align: center;
+	line-height: 30px;
+	color: brown;
+	font-weight: bold;
+}
+.grid {
+	height: 300px;
+	display: grid;
+	grid-gap: 10px;
+	grid-template-columns: repeat(3, auto) 100px;
+	grid-template-rows: 15% 25% 30% 6%;
+}
+.gridbox {
+	font-weight: bold;
+	color: white;
+}
+.gridbox1 {
+	background-color: crimson;
+	grid-column: 1/5;
+	grid-row: 1/2;
+	font-size: 25px;
+	text-align: center;
+}
+.gridbox2 {
+	background-color: #74c174;
+	grid-column: 1/2;
+	grid-row: 2/3;
+	font-size: 20px;
+}
+.gridbox3 {
+	background-color: rgb(0, 162, 255);
+	grid-column: 2/3;
+	grid-row: 2/3;
+	font-size: 20px;
+}
+.gridbox4 {
+	background-color: blueviolet;
+	grid-column: 3/4;
+	grid-row: 2/3;
+	font-size: 20px;
+}
+.gridbox5 {
+	background-color: rgb(58, 57, 57);
+	grid-column: 4/5;
+	grid-row: 2/4;
+	list-style-position: inside;
+	font-size: 15px;
+	text-align: center;
+}
+.gridbox6 {
+	background-color: orange;
+	grid-column: 1/4;
+	grid-row: 3/4;
+	font-size: 20px;
+}
+.gridbox7 {
+	background-color: lightseagreen;
+	grid-column: 1/5;
+	grid-row: 4/5;
+	color: black;
+	font-size: 18px;
+	text-align: center;
+}
